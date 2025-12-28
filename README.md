@@ -18,8 +18,8 @@ Clone the repository:
 
 ```Bash
 
-git clone https://github.com/yourusername/PyPayload-Evasion.git
-cd PyPayload-Evasion
+git clone https://github.com/Pwn3rx0/Py-Evasion.git
+cd Py-Evasion
 ```
 No external dependencies are required (uses standard Python libraries).
 
