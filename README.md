@@ -9,7 +9,7 @@ A Python utility designed to extract, deobfuscate, and repackage Meterpreter pay
 
 ---
 
-🛠️ Installation
+## Installation
 Clone the repository:
 
 ```Bash
@@ -19,7 +19,7 @@ cd PyPayload-Evasion
 ```
 No external dependencies are required (uses standard Python libraries).
 
-## 🚀 Usage
+## Usage
 ```bash
 python3 PyEvasion.py -i input.py -o output.py -m evasion
 ```
