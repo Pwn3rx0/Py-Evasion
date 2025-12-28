@@ -1,4 +1,4 @@
-# PyPayload-Evasion
+# Py-Evasion
 
 A Python utility designed to extract, deobfuscate, and repackage Meterpreter payloads. This tool identifies encoded blobs (Zlib, Base64, or Hex) within a script, extracts the original source, and allows for the generation of a fresh, obfuscated wrapper to evade static analysis by Windows Defender and other AV engines.
 
