@@ -2,13 +2,14 @@
 <img width="1344" height="768" alt="ideogram-v3 0_Cinematic_21_9_ultrawide_aggressive_cyberpunk_anime_style _A_lethal_digital_vipe-0" src="https://github.com/user-attachments/assets/dc369910-c3fe-437c-a711-07fe8a208857" />
 
 ---
+## Description
 
 A Python utility designed to extract, deobfuscate, and repackage Meterpreter payloads. This tool identifies encoded blobs (Zlib, Base64, or Hex) within a script, extracts the original source, and allows for the generation of a fresh, obfuscated wrapper to evade static analysis by Windows Defender and other AV engines.
 
 ## Features
 - **Recursive Decoding:** Unpacks nested Base64, Zlib, and Hex layers automatically.
-- **Evasion Mode:** Wraps raw code in a Base64 `exec()` loop to mask signatures.
-- **Clean Mode:** Extracts raw source for analysis.
+- **Evasion Mode`-m evsaion`:** Wraps raw code in a Double Base64 inside `exec()` to mask signatures.
+- **Clean Mode`-m clean`:** Extracts raw source for analysis.
 
 ---
 
